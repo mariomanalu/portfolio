@@ -1,0 +1,29 @@
+body {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  animation-name: change-color;
+  animation-duration: 2s;
+  animation-fill-mode: forwards; 
+}
+
+@keyframes change-color{
+  from {background-color: white;}
+  to {background-color: #000000;}  
+}
+
+.center {
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+h1{
+    font-family:'Arial Black';
+    font-size: 128px;
+    color: white;
+    text-align: center;
+}
