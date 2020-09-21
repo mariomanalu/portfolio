@@ -20,7 +20,7 @@ body{
 * {
   margin:0px;
   padding:0px;
-  font-family: happy-monkey;
+  font-family: lato;
 }
 
 /*Sidenav*/
@@ -61,7 +61,7 @@ body{
 }
 
 .sidenav a:hover{
-  color: #f1f1f1;
+  text-decoration: underline;
 }
 
 .sidenav .closebtn {
